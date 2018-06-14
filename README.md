@@ -1,4 +1,3 @@
 # hab_national_parks
 
-TODO: Enter the cookbook description here.
-
+A cookbook including recipe to install National Parks application using Habitat
