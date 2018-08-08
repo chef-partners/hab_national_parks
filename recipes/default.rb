@@ -18,6 +18,10 @@
 
 hab_sup 'default'
 
+hab_package 'jamesc/national-parks' do
+  channel 'stable'
+end
+
 hab_service 'jamesc/np-mongodb'
 
 hab_service 'jamesc/national-parks' do
