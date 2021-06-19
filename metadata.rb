@@ -3,9 +3,8 @@ maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'Apache-2.0'
 description 'Installs/Configures hab_national_parks'
-long_description 'Installs/Configures hab_national_parks'
 version '0.2.0'
-chef_version '>= 12.14' if respond_to?(:chef_version)
+chef_version '>= 12.14'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
@@ -19,4 +18,4 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 #
 # source_url 'https://github.com/<insert_org_here>/hab_national_parks'
 
-depends 'habitat' 
+depends 'habitat'
