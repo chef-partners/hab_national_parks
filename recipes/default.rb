@@ -25,6 +25,6 @@ end
 hab_service 'jamesc/np-mongodb'
 
 hab_service 'jamesc/national-parks' do
-    strategy 'at-once'
-    bind 'database:np-mongodb.default'
+  strategy 'at-once'
+  bind 'database:np-mongodb.default'
 end

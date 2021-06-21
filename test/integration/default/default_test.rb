@@ -1,5 +1,3 @@
-# # encoding: utf-8
-
 # Inspec test for recipe hab_national_parks::default
 
 # The Inspec reference, with examples and extensive documentation, can be
